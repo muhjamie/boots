@@ -1,0 +1,132 @@
+name: boots
+description: The social media app for corps members.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+3
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  dio:
+  grouped_buttons:
+  cached_network_image:
+  font_awesome_flutter:
+  empty_widget: ^0.0.1
+  flutter_advanced_networkimage: ^0.7.0
+  provider:
+  flutter_native_splash: ^0.1.9
+  firebase_auth:
+  firebase_database:
+  firebase_analytics:
+  cloud_firestore:
+  firebase_storage:
+  image_picker: ^0.6.2
+  uuid: ^2.0.1
+  flutter_html:
+  async:
+  http: ^0.12.1
+  shared_preferences: ^0.5.1+2
+  firebase_messaging: ^6.0.13
+  google_sign_in:
+  intl: ^0.15.8
+  url_launcher: ^5.4.5
+  share: ^0.6.3
+  google_fonts: ^0.3.9
+  firebase_remote_config: ^0.3.0+3
+  rxdart: any
+  google_maps_flutter: ^0.5.28+1
+  location: ^3.0.2
+  flutter_polyline_points: ^0.2.2
+  geolocator: ^5.3.2+2
+  google_maps_webservice: ^0.0.17
+  flutter_spinkit: ^4.1.2+1
+  flutter_google_places: ^0.2.5
+  get_it: ^1.0.3
+  json_annotation:
+  flutter_staggered_animations:
+  latlong:
+  sliding_up_panel:
+  material_design_icons_flutter:
+  permission_handler:
+  flutter_mapbox_navigation: ^0.0.11
+  geocoder: ^0.2.1
+  flutter_typeahead:
+  photofilters:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/images/icon-48.png
+  - assets/images/icon-480.png
+  - assets/images/icon-400.png
+  - assets/images/qr.png
+  - assets/images/bulb.png
+  - assets/images/google_logo.png
+  - assets/images/directions/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: TwitterIcon
+      fonts:
+      - asset: assets/fonts/icons.ttf
+    - family: HelveticaNeue
+      fonts:
+      - asset: assets/fonts/HelveticaNeue.ttf
+      - asset: assets/fonts/HelveticaNeue400.ttf
+        weight: 400
+      - asset: assets/fonts/HelveticaNeue500.ttf
+        weight: 500
+      - asset: assets/fonts/HelveticaNeue600.ttf
+        weight: 600
+      - asset: assets/fonts/HelveticaNeue700.ttf
+        weight: 700
+      - asset: assets/fonts/HelveticaNeue800.ttf
+        weight: 800
+      - asset: assets/fonts/HelveticaNeue900.ttf
+        weight: 900
+      - asset: assets/fonts/HelveticaNeueIt.ttf
+        style: italic
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
